@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="WPF_Timer.UserControl1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPF_Timer"
+             mc:Ignorable="d" 
+             d:DesignHeight="360" d:DesignWidth="525" Loaded="Window_Loaded">
+    <Grid Margin="0,0,-6.6,-29.6">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition  />
+            <ColumnDefinition  />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition  />
+            <RowDefinition  />
+            <RowDefinition  />
+        </Grid.RowDefinitions>
+        <DataGrid Grid.Column="2" ItemsSource="{Binding Items}" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="LastName" Binding="{Binding LastName}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="button" Width="135" Height="55" Content="Toggle expansion"  Click="button_Click_Pause" Grid.Column="2" Grid.Row="2" />
+        <Label x:Name="Timer_Label" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Segoe UI" FontSize="50" Grid.Column="1" Grid.Row="1"></Label>
+        <Button x:Name="button1" Width="135" Height="55" Content="Select next" Click="button_Click_Cancel" Grid.Row="2" Grid.Column="1"/>
+        <CheckBox x:Name="checkBox" Width="55" Content="Cycle"  Grid.Row="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Column="0" />
+        <TextBox x:Name="textBox" Width="90" Height="25" Text="EnterNumber" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" Grid.Row="2" Grid.Column="0" Margin="42,10,43.2,84"  />
+    </Grid>
+</UserControl>

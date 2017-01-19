@@ -1,0 +1,8 @@
+C:\Users\cfif\Documents\Visual Studio 2015\Projects\WPF_Timer\Test_WPF_Timer\bin\Debug\Test_WPF_Timer.dll
+C:\Users\cfif\Documents\Visual Studio 2015\Projects\WPF_Timer\Test_WPF_Timer\bin\Debug\Test_WPF_Timer.pdb
+C:\Users\cfif\Documents\Visual Studio 2015\Projects\WPF_Timer\Test_WPF_Timer\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\cfif\Documents\Visual Studio 2015\Projects\WPF_Timer\Test_WPF_Timer\bin\Debug\WPF_Timer.exe
+C:\Users\cfif\Documents\Visual Studio 2015\Projects\WPF_Timer\Test_WPF_Timer\bin\Debug\WPF_Timer.pdb
+C:\Users\cfif\Documents\Visual Studio 2015\Projects\WPF_Timer\Test_WPF_Timer\obj\Debug\Test_WPF_Timer.csprojResolveAssemblyReference.cache
+C:\Users\cfif\Documents\Visual Studio 2015\Projects\WPF_Timer\Test_WPF_Timer\obj\Debug\Test_WPF_Timer.dll
+C:\Users\cfif\Documents\Visual Studio 2015\Projects\WPF_Timer\Test_WPF_Timer\obj\Debug\Test_WPF_Timer.pdb
